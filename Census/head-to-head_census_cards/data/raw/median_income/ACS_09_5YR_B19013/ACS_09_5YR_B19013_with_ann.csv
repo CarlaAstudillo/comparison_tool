@@ -1,0 +1,573 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01
+Id,Id2,Geography,Estimate; Median household income in the past 12 months (in 2009 inflation-adjusted dollars),Margin of Error; Median household income in the past 12 months (in 2009 inflation-adjusted dollars)
+0600000US3400100000,3400100000,"County subdivisions not defined, Atlantic County, New Jersey",-,**
+0600000US3400100100,3400100100,"Absecon city, Atlantic County, New Jersey",69782,8184
+0600000US3400102080,3400102080,"Atlantic City city, Atlantic County, New Jersey",30601,1999
+0600000US3400107810,3400107810,"Brigantine city, Atlantic County, New Jersey",64375,6568
+0600000US3400108680,3400108680,"Buena borough, Atlantic County, New Jersey",54695,5781
+0600000US3400108710,3400108710,"Buena Vista township, Atlantic County, New Jersey",55541,7081
+0600000US3400115160,3400115160,"Corbin City city, Atlantic County, New Jersey",70694,9140
+0600000US3400120290,3400120290,"Egg Harbor township, Atlantic County, New Jersey",68596,3115
+0600000US3400120350,3400120350,"Egg Harbor City city, Atlantic County, New Jersey",54367,9184
+0600000US3400121870,3400121870,"Estell Manor city, Atlantic County, New Jersey",73611,4826
+0600000US3400123940,3400123940,"Folsom borough, Atlantic County, New Jersey",71207,6938
+0600000US3400125560,3400125560,"Galloway township, Atlantic County, New Jersey",64566,3649
+0600000US3400129280,3400129280,"Hamilton township, Atlantic County, New Jersey",56985,3594
+0600000US3400129430,3400129430,"Hammonton town, Atlantic County, New Jersey",57303,8480
+0600000US3400140530,3400140530,"Linwood city, Atlantic County, New Jersey",83879,11777
+0600000US3400141370,3400141370,"Longport borough, Atlantic County, New Jersey",83000,11254
+0600000US3400143890,3400143890,"Margate City city, Atlantic County, New Jersey",67958,7020
+0600000US3400149410,3400149410,"Mullica township, Atlantic County, New Jersey",55824,11846
+0600000US3400152950,3400152950,"Northfield city, Atlantic County, New Jersey",68913,5526
+0600000US3400159640,3400159640,"Pleasantville city, Atlantic County, New Jersey",39806,5136
+0600000US3400160600,3400160600,"Port Republic city, Atlantic County, New Jersey",82917,15248
+0600000US3400168430,3400168430,"Somers Point city, Atlantic County, New Jersey",49620,4912
+0600000US3400175620,3400175620,"Ventnor City city, Atlantic County, New Jersey",53806,4486
+0600000US3400180330,3400180330,"Weymouth township, Atlantic County, New Jersey",51712,8113
+0600000US3400300700,3400300700,"Allendale borough, Bergen County, New Jersey",127757,21038
+0600000US3400301090,3400301090,"Alpine borough, Bergen County, New Jersey",167917,25587
+0600000US3400305170,3400305170,"Bergenfield borough, Bergen County, New Jersey",81324,7458
+0600000US3400306490,3400306490,"Bogota borough, Bergen County, New Jersey",73911,11080
+0600000US3400310480,3400310480,"Carlstadt borough, Bergen County, New Jersey",63903,8414
+0600000US3400313570,3400313570,"Cliffside Park borough, Bergen County, New Jersey",68287,7697
+0600000US3400313810,3400313810,"Closter borough, Bergen County, New Jersey",115882,10494
+0600000US3400315820,3400315820,"Cresskill borough, Bergen County, New Jersey",111786,18579
+0600000US3400317530,3400317530,"Demarest borough, Bergen County, New Jersey",145087,18666
+0600000US3400318400,3400318400,"Dumont borough, Bergen County, New Jersey",82606,4956
+0600000US3400319510,3400319510,"East Rutherford borough, Bergen County, New Jersey",64613,4259
+0600000US3400320020,3400320020,"Edgewater borough, Bergen County, New Jersey",82047,11947
+0600000US3400321300,3400321300,"Elmwood Park borough, Bergen County, New Jersey",62886,5569
+0600000US3400321450,3400321450,"Emerson borough, Bergen County, New Jersey",96341,11883
+0600000US3400321480,3400321480,"Englewood city, Bergen County, New Jersey",70357,5382
+0600000US3400321510,3400321510,"Englewood Cliffs borough, Bergen County, New Jersey",112292,34202
+0600000US3400322470,3400322470,"Fair Lawn borough, Bergen County, New Jersey",90992,3788
+0600000US3400322560,3400322560,"Fairview borough, Bergen County, New Jersey",41418,4389
+0600000US3400324420,3400324420,"Fort Lee borough, Bergen County, New Jersey",72425,4405
+0600000US3400324990,3400324990,"Franklin Lakes borough, Bergen County, New Jersey",154018,23316
+0600000US3400325770,3400325770,"Garfield city, Bergen County, New Jersey",50917,2615
+0600000US3400326640,3400326640,"Glen Rock borough, Bergen County, New Jersey",138864,8002
+0600000US3400328680,3400328680,"Hackensack city, Bergen County, New Jersey",59835,2693
+0600000US3400330150,3400330150,"Harrington Park borough, Bergen County, New Jersey",119514,23407
+0600000US3400330420,3400330420,"Hasbrouck Heights borough, Bergen County, New Jersey",87806,7237
+0600000US3400330540,3400330540,"Haworth borough, Bergen County, New Jersey",134228,19647
+0600000US3400331920,3400331920,"Hillsdale borough, Bergen County, New Jersey",121406,8843
+0600000US3400332310,3400332310,"Ho-Ho-Kus borough, Bergen County, New Jersey",157656,13576
+0600000US3400340020,3400340020,"Leonia borough, Bergen County, New Jersey",68206,9319
+0600000US3400340680,3400340680,"Little Ferry borough, Bergen County, New Jersey",59551,6032
+0600000US3400341100,3400341100,"Lodi borough, Bergen County, New Jersey",54652,4022
+0600000US3400342090,3400342090,"Lyndhurst township, Bergen County, New Jersey",70591,7724
+0600000US3400342750,3400342750,"Mahwah township, Bergen County, New Jersey",98430,6163
+0600000US3400344880,3400344880,"Maywood borough, Bergen County, New Jersey",83065,4886
+0600000US3400346110,3400346110,"Midland Park borough, Bergen County, New Jersey",86920,9252
+0600000US3400347610,3400347610,"Montvale borough, Bergen County, New Jersey",109921,10943
+0600000US3400347700,3400347700,"Moonachie borough, Bergen County, New Jersey",50286,7983
+0600000US3400351660,3400351660,"New Milford borough, Bergen County, New Jersey",73729,5967
+0600000US3400352320,3400352320,"North Arlington borough, Bergen County, New Jersey",71914,6974
+0600000US3400353430,3400353430,"Northvale borough, Bergen County, New Jersey",88750,16980
+0600000US3400353610,3400353610,"Norwood borough, Bergen County, New Jersey",93640,15565
+0600000US3400353850,3400353850,"Oakland borough, Bergen County, New Jersey",110479,3579
+0600000US3400354870,3400354870,"Old Tappan borough, Bergen County, New Jersey",120625,22993
+0600000US3400354990,3400354990,"Oradell borough, Bergen County, New Jersey",119365,15949
+0600000US3400355770,3400355770,"Palisades Park borough, Bergen County, New Jersey",62303,5581
+0600000US3400355950,3400355950,"Paramus borough, Bergen County, New Jersey",102847,9209
+0600000US3400356130,3400356130,"Park Ridge borough, Bergen County, New Jersey",101583,8140
+0600000US3400361680,3400361680,"Ramsey borough, Bergen County, New Jersey",118037,8473
+0600000US3400362910,3400362910,"Ridgefield borough, Bergen County, New Jersey",66272,12786
+0600000US3400362940,3400362940,"Ridgefield Park village, Bergen County, New Jersey",62433,6054
+0600000US3400363000,3400363000,"Ridgewood village, Bergen County, New Jersey",138827,9829
+0600000US3400363360,3400363360,"River Edge borough, Bergen County, New Jersey",91829,8666
+0600000US3400363690,3400363690,"River Vale township, Bergen County, New Jersey",113734,9830
+0600000US3400363990,3400363990,"Rochelle Park township, Bergen County, New Jersey",61613,11838
+0600000US3400364170,3400364170,"Rockleigh borough, Bergen County, New Jersey",135833,66309
+0600000US3400365280,3400365280,"Rutherford borough, Bergen County, New Jersey",86423,2369
+0600000US3400365340,3400365340,"Saddle Brook township, Bergen County, New Jersey",83396,7120
+0600000US3400365400,3400365400,"Saddle River borough, Bergen County, New Jersey",112380,61769
+0600000US3400368970,3400368970,"South Hackensack township, Bergen County, New Jersey",64522,7174
+0600000US3400372360,3400372360,"Teaneck township, Bergen County, New Jersey",93349,5285
+0600000US3400372420,3400372420,"Tenafly borough, Bergen County, New Jersey",116359,24796
+0600000US3400372480,3400372480,"Teterboro borough, Bergen County, New Jersey",76875,107391
+0600000US3400375140,3400375140,"Upper Saddle River borough, Bergen County, New Jersey",162679,20618
+0600000US3400376400,3400376400,"Waldwick borough, Bergen County, New Jersey",90083,7799
+0600000US3400376490,3400376490,"Wallington borough, Bergen County, New Jersey",56859,3037
+0600000US3400377135,3400377135,"Washington township, Bergen County, New Jersey",101610,13220
+0600000US3400380270,3400380270,"Westwood borough, Bergen County, New Jersey",76891,6559
+0600000US3400382300,3400382300,"Woodcliff Lake borough, Bergen County, New Jersey",150972,29966
+0600000US3400382570,3400382570,"Wood-Ridge borough, Bergen County, New Jersey",89629,3786
+0600000US3400383050,3400383050,"Wyckoff township, Bergen County, New Jersey",138373,3589
+0600000US3400503370,3400503370,"Bass River township, Burlington County, New Jersey",64327,11874
+0600000US3400505740,3400505740,"Beverly city, Burlington County, New Jersey",58063,9717
+0600000US3400506670,3400506670,"Bordentown city, Burlington County, New Jersey",65817,14042
+0600000US3400506700,3400506700,"Bordentown township, Burlington County, New Jersey",83486,4846
+0600000US3400508920,3400508920,"Burlington city, Burlington County, New Jersey",48379,3604
+0600000US3400508950,3400508950,"Burlington township, Burlington County, New Jersey",84087,2823
+0600000US3400512670,3400512670,"Chesterfield township, Burlington County, New Jersey",111607,11528
+0600000US3400512940,3400512940,"Cinnaminson township, Burlington County, New Jersey",88239,5136
+0600000US3400517080,3400517080,"Delanco township, Burlington County, New Jersey",75167,8613
+0600000US3400517440,3400517440,"Delran township, Burlington County, New Jersey",74247,3428
+0600000US3400518790,3400518790,"Eastampton township, Burlington County, New Jersey",74107,12299
+0600000US3400520050,3400520050,"Edgewater Park township, Burlington County, New Jersey",55233,4574
+0600000US3400522110,3400522110,"Evesham township, Burlington County, New Jersey",87616,3068
+0600000US3400523250,3400523250,"Fieldsboro borough, Burlington County, New Jersey",57135,10348
+0600000US3400523850,3400523850,"Florence township, Burlington County, New Jersey",73789,3219
+0600000US3400529010,3400529010,"Hainesport township, Burlington County, New Jersey",79506,6886
+0600000US3400542060,3400542060,"Lumberton township, Burlington County, New Jersey",76631,6233
+0600000US3400543290,3400543290,"Mansfield township, Burlington County, New Jersey",74209,8116
+0600000US3400543740,3400543740,"Maple Shade township, Burlington County, New Jersey",49860,2651
+0600000US3400545120,3400545120,"Medford township, Burlington County, New Jersey",104338,4507
+0600000US3400545210,3400545210,"Medford Lakes borough, Burlington County, New Jersey",88594,13564
+0600000US3400547880,3400547880,"Moorestown township, Burlington County, New Jersey",108995,8093
+0600000US3400548900,3400548900,"Mount Holly township, Burlington County, New Jersey",51261,4159
+0600000US3400549020,3400549020,"Mount Laurel township, Burlington County, New Jersey",80457,3838
+0600000US3400551510,3400551510,"New Hanover township, Burlington County, New Jersey",75146,12335
+0600000US3400553070,3400553070,"North Hanover township, Burlington County, New Jersey",62225,6416
+0600000US3400555800,3400555800,"Palmyra borough, Burlington County, New Jersey",61844,6145
+0600000US3400557480,3400557480,"Pemberton borough, Burlington County, New Jersey",63750,8951
+0600000US3400557510,3400557510,"Pemberton township, Burlington County, New Jersey",63188,3093
+0600000US3400563510,3400563510,"Riverside township, Burlington County, New Jersey",59345,6030
+0600000US3400563660,3400563660,"Riverton borough, Burlington County, New Jersey",90223,6665
+0600000US3400566810,3400566810,"Shamong township, Burlington County, New Jersey",102366,7564
+0600000US3400568610,3400568610,"Southampton township, Burlington County, New Jersey",52604,4226
+0600000US3400569990,3400569990,"Springfield township, Burlington County, New Jersey",96635,10623
+0600000US3400572060,3400572060,"Tabernacle township, Burlington County, New Jersey",87125,11091
+0600000US3400577150,3400577150,"Washington township, Burlington County, New Jersey",77656,7516
+0600000US3400578200,3400578200,"Westampton township, Burlington County, New Jersey",90221,10136
+0600000US3400581440,3400581440,"Willingboro township, Burlington County, New Jersey",64581,4804
+0600000US3400582420,3400582420,"Woodland township, Burlington County, New Jersey",66875,11988
+0600000US3400582960,3400582960,"Wrightstown borough, Burlington County, New Jersey",44464,11981
+0600000US3400702200,3400702200,"Audubon borough, Camden County, New Jersey",68859,5538
+0600000US3400702230,3400702230,"Audubon Park borough, Camden County, New Jersey",40667,7276
+0600000US3400703250,3400703250,"Barrington borough, Camden County, New Jersey",53714,6763
+0600000US3400704750,3400704750,"Bellmawr borough, Camden County, New Jersey",55932,2646
+0600000US3400705440,3400705440,"Berlin borough, Camden County, New Jersey",70136,7421
+0600000US3400705470,3400705470,"Berlin township, Camden County, New Jersey",61860,9799
+0600000US3400708170,3400708170,"Brooklawn borough, Camden County, New Jersey",56706,3140
+0600000US3400710000,3400710000,"Camden city, Camden County, New Jersey",25418,1211
+0600000US3400712280,3400712280,"Cherry Hill township, Camden County, New Jersey",87392,3370
+0600000US3400712550,3400712550,"Chesilhurst borough, Camden County, New Jersey",49333,8904
+0600000US3400713420,3400713420,"Clementon borough, Camden County, New Jersey",46029,8676
+0600000US3400714260,3400714260,"Collingswood borough, Camden County, New Jersey",56751,3495
+0600000US3400726070,3400726070,"Gibbsboro borough, Camden County, New Jersey",77879,8087
+0600000US3400726760,3400726760,"Gloucester township, Camden County, New Jersey",70077,2851
+0600000US3400726820,3400726820,"Gloucester City city, Camden County, New Jersey",47011,4371
+0600000US3400728740,3400728740,"Haddon township, Camden County, New Jersey",71546,6725
+0600000US3400728770,3400728770,"Haddonfield borough, Camden County, New Jersey",109259,10282
+0600000US3400728800,3400728800,"Haddon Heights borough, Camden County, New Jersey",79392,9432
+0600000US3400732220,3400732220,"Hi-Nella borough, Camden County, New Jersey",38333,7152
+0600000US3400739210,3400739210,"Laurel Springs borough, Camden County, New Jersey",62083,8917
+0600000US3400739420,3400739420,"Lawnside borough, Camden County, New Jersey",52778,6209
+0600000US3400740440,3400740440,"Lindenwold borough, Camden County, New Jersey",47180,3275
+0600000US3400742630,3400742630,"Magnolia borough, Camden County, New Jersey",57375,3176
+0600000US3400745510,3400745510,"Merchantville borough, Camden County, New Jersey",70068,12146
+0600000US3400748750,3400748750,"Mount Ephraim borough, Camden County, New Jersey",58771,5516
+0600000US3400753880,3400753880,"Oaklyn borough, Camden County, New Jersey",60704,6732
+0600000US3400757660,3400757660,"Pennsauken township, Camden County, New Jersey",59589,2698
+0600000US3400758770,3400758770,"Pine Hill borough, Camden County, New Jersey",53799,3566
+0600000US3400758920,3400758920,"Pine Valley borough, Camden County, New Jersey",79167,43758
+0600000US3400765160,3400765160,"Runnemede borough, Camden County, New Jersey",54323,4924
+0600000US3400768340,3400768340,"Somerdale borough, Camden County, New Jersey",65975,4176
+0600000US3400771220,3400771220,"Stratford borough, Camden County, New Jersey",62232,6029
+0600000US3400772240,3400772240,"Tavistock borough, Camden County, New Jersey",133906,78987
+0600000US3400776220,3400776220,"Voorhees township, Camden County, New Jersey",84869,5485
+0600000US3400777630,3400777630,"Waterford township, Camden County, New Jersey",75806,9045
+0600000US3400781740,3400781740,"Winslow township, Camden County, New Jersey",67158,3173
+0600000US3400782450,3400782450,"Woodlynne borough, Camden County, New Jersey",45625,11526
+0600000US3400900000,3400900000,"County subdivisions not defined, Cape May County, New Jersey",-,**
+0600000US3400902320,3400902320,"Avalon borough, Cape May County, New Jersey",85855,10886
+0600000US3400910270,3400910270,"Cape May city, Cape May County, New Jersey",34857,11085
+0600000US3400910330,3400910330,"Cape May Point borough, Cape May County, New Jersey",37500,38187
+0600000US3400917560,3400917560,"Dennis township, Cape May County, New Jersey",86301,5964
+0600000US3400941610,3400941610,"Lower township, Cape May County, New Jersey",49692,2713
+0600000US3400945810,3400945810,"Middle township, Cape May County, New Jersey",59660,4085
+0600000US3400953490,3400953490,"North Wildwood city, Cape May County, New Jersey",44918,9947
+0600000US3400954360,3400954360,"Ocean City city, Cape May County, New Jersey",57597,8020
+0600000US3400966390,3400966390,"Sea Isle City city, Cape May County, New Jersey",53859,14714
+0600000US3400971010,3400971010,"Stone Harbor borough, Cape May County, New Jersey",68188,6287
+0600000US3400974810,3400974810,"Upper township, Cape May County, New Jersey",79972,7239
+0600000US3400978530,3400978530,"West Cape May borough, Cape May County, New Jersey",55192,7649
+0600000US3400980210,3400980210,"West Wildwood borough, Cape May County, New Jersey",45781,14925
+0600000US3400981170,3400981170,"Wildwood city, Cape May County, New Jersey",30974,5386
+0600000US3400981200,3400981200,"Wildwood Crest borough, Cape May County, New Jersey",43673,7650
+0600000US3400981890,3400981890,"Woodbine borough, Cape May County, New Jersey",36686,9767
+0600000US3401100000,3401100000,"County subdivisions not defined, Cumberland County, New Jersey",-,**
+0600000US3401107600,3401107600,"Bridgeton city, Cumberland County, New Jersey",32464,2972
+0600000US3401114710,3401114710,"Commercial township, Cumberland County, New Jersey",48598,9750
+0600000US3401116900,3401116900,"Deerfield township, Cumberland County, New Jersey",68477,5462
+0600000US3401118220,3401118220,"Downe township, Cumberland County, New Jersey",43902,4962
+0600000US3401122350,3401122350,"Fairfield township, Cumberland County, New Jersey",47165,3574
+0600000US3401128170,3401128170,"Greenwich township, Cumberland County, New Jersey",56667,14667
+0600000US3401133120,3401133120,"Hopewell township, Cumberland County, New Jersey",62739,6946
+0600000US3401139450,3401139450,"Lawrence township, Cumberland County, New Jersey",64628,7908
+0600000US3401144580,3401144580,"Maurice River township, Cumberland County, New Jersey",67481,11370
+0600000US3401146680,3401146680,"Millville city, Cumberland County, New Jersey",47244,4664
+0600000US3401167020,3401167020,"Shiloh borough, Cumberland County, New Jersey",49306,22919
+0600000US3401171160,3401171160,"Stow Creek township, Cumberland County, New Jersey",69375,7316
+0600000US3401174870,3401174870,"Upper Deerfield township, Cumberland County, New Jersey",57956,8140
+0600000US3401176070,3401176070,"Vineland city, Cumberland County, New Jersey",52422,2656
+0600000US3401304695,3401304695,"Belleville township, Essex County, New Jersey",57752,2391
+0600000US3401306260,3401306260,"Bloomfield township, Essex County, New Jersey",66267,3853
+0600000US3401309250,3401309250,"Caldwell borough, Essex County, New Jersey",79711,9614
+0600000US3401311200,3401311200,"Cedar Grove township, Essex County, New Jersey",88594,7525
+0600000US3401313045,3401313045,"City of Orange township, Essex County, New Jersey",40981,1895
+0600000US3401319390,3401319390,"East Orange city, Essex County, New Jersey",39116,2659
+0600000US3401321840,3401321840,"Essex Fells borough, Essex County, New Jersey",172159,16619
+0600000US3401322385,3401322385,"Fairfield township, Essex County, New Jersey",96981,16408
+0600000US3401326610,3401326610,"Glen Ridge borough, Essex County, New Jersey",158173,11829
+0600000US3401334450,3401334450,"Irvington township, Essex County, New Jersey",44016,2676
+0600000US3401340890,3401340890,"Livingston township, Essex County, New Jersey",124936,7632
+0600000US3401343800,3401343800,"Maplewood township, Essex County, New Jersey",101912,5524
+0600000US3401346380,3401346380,"Millburn township, Essex County, New Jersey",169678,12560
+0600000US3401347500,3401347500,"Montclair township, Essex County, New Jersey",92873,5970
+0600000US3401351000,3401351000,"Newark city, Essex County, New Jersey",35507,1001
+0600000US3401352620,3401352620,"North Caldwell borough, Essex County, New Jersey",162422,35493
+0600000US3401353680,3401353680,"Nutley township, Essex County, New Jersey",76994,7519
+0600000US3401364590,3401364590,"Roseland borough, Essex County, New Jersey",100560,13537
+0600000US3401369274,3401369274,"South Orange Village township, Essex County, New Jersey",116607,5526
+0600000US3401375815,3401375815,"Verona township, Essex County, New Jersey",91818,9121
+0600000US3401378510,3401378510,"West Caldwell township, Essex County, New Jersey",98218,6313
+0600000US3401379800,3401379800,"West Orange township, Essex County, New Jersey",89034,4924
+0600000US3401513360,3401513360,"Clayton borough, Gloucester County, New Jersey",69111,7033
+0600000US3401517710,3401517710,"Deptford township, Gloucester County, New Jersey",65866,3151
+0600000US3401519180,3401519180,"East Greenwich township, Gloucester County, New Jersey",94174,12148
+0600000US3401521060,3401521060,"Elk township, Gloucester County, New Jersey",69508,10127
+0600000US3401524840,3401524840,"Franklin township, Gloucester County, New Jersey",75994,4720
+0600000US3401526340,3401526340,"Glassboro borough, Gloucester County, New Jersey",53708,3688
+0600000US3401528185,3401528185,"Greenwich township, Gloucester County, New Jersey",62594,7539
+0600000US3401530180,3401530180,"Harrison township, Gloucester County, New Jersey",94602,9514
+0600000US3401541160,3401541160,"Logan township, Gloucester County, New Jersey",88780,11086
+0600000US3401543440,3401543440,"Mantua township, Gloucester County, New Jersey",80146,3796
+0600000US3401547250,3401547250,"Monroe township, Gloucester County, New Jersey",65911,3878
+0600000US3401549680,3401549680,"National Park borough, Gloucester County, New Jersey",68750,5699
+0600000US3401551390,3401551390,"Newfield borough, Gloucester County, New Jersey",60529,4781
+0600000US3401557150,3401557150,"Paulsboro borough, Gloucester County, New Jersey",46897,10367
+0600000US3401559070,3401559070,"Pitman borough, Gloucester County, New Jersey",66647,6241
+0600000US3401569030,3401569030,"South Harrison township, Gloucester County, New Jersey",119931,12207
+0600000US3401571850,3401571850,"Swedesboro borough, Gloucester County, New Jersey",64188,9451
+0600000US3401577180,3401577180,"Washington township, Gloucester County, New Jersey",80567,3897
+0600000US3401578110,3401578110,"Wenonah borough, Gloucester County, New Jersey",104871,9442
+0600000US3401578800,3401578800,"West Deptford township, Gloucester County, New Jersey",68689,4395
+0600000US3401580120,3401580120,"Westville borough, Gloucester County, New Jersey",52586,4578
+0600000US3401582120,3401582120,"Woodbury city, Gloucester County, New Jersey",53564,4604
+0600000US3401582180,3401582180,"Woodbury Heights borough, Gloucester County, New Jersey",81921,10689
+0600000US3401582840,3401582840,"Woolwich township, Gloucester County, New Jersey",109588,5163
+0600000US3401703580,3401703580,"Bayonne city, Hudson County, New Jersey",50423,2626
+0600000US3401719360,3401719360,"East Newark borough, Hudson County, New Jersey",50347,4751
+0600000US3401728650,3401728650,"Guttenberg town, Hudson County, New Jersey",50766,6294
+0600000US3401730210,3401730210,"Harrison town, Hudson County, New Jersey",49596,3106
+0600000US3401732250,3401732250,"Hoboken city, Hudson County, New Jersey",105710,5770
+0600000US3401736000,3401736000,"Jersey City city, Hudson County, New Jersey",51826,1635
+0600000US3401736510,3401736510,"Kearny town, Hudson County, New Jersey",58589,3528
+0600000US3401752470,3401752470,"North Bergen township, Hudson County, New Jersey",51497,3450
+0600000US3401766570,3401766570,"Secaucus town, Hudson County, New Jersey",81944,8814
+0600000US3401774630,3401774630,"Union City city, Hudson County, New Jersey",39001,2649
+0600000US3401777930,3401777930,"Weehawken township, Hudson County, New Jersey",66612,9147
+0600000US3401779610,3401779610,"West New York town, Hudson County, New Jersey",42561,2361
+0600000US3401900550,3401900550,"Alexandria township, Hunterdon County, New Jersey",108125,11941
+0600000US3401905650,3401905650,"Bethlehem township, Hunterdon County, New Jersey",125966,19523
+0600000US3401906370,3401906370,"Bloomsbury borough, Hunterdon County, New Jersey",102935,14981
+0600000US3401909280,3401909280,"Califon borough, Hunterdon County, New Jersey",98828,8248
+0600000US3401913720,3401913720,"Clinton town, Hunterdon County, New Jersey",81083,12904
+0600000US3401913750,3401913750,"Clinton township, Hunterdon County, New Jersey",116910,8592
+0600000US3401917170,3401917170,"Delaware township, Hunterdon County, New Jersey",93586,11833
+0600000US3401918820,3401918820,"East Amwell township, Hunterdon County, New Jersey",109893,18764
+0600000US3401923700,3401923700,"Flemington borough, Hunterdon County, New Jersey",53606,8335
+0600000US3401924870,3401924870,"Franklin township, Hunterdon County, New Jersey",105114,20825
+0600000US3401925350,3401925350,"Frenchtown borough, Hunterdon County, New Jersey",65341,11162
+0600000US3401926550,3401926550,"Glen Gardner borough, Hunterdon County, New Jersey",71818,15134
+0600000US3401929460,3401929460,"Hampton borough, Hunterdon County, New Jersey",64327,11094
+0600000US3401931320,3401931320,"High Bridge borough, Hunterdon County, New Jersey",80947,13373
+0600000US3401932460,3401932460,"Holland township, Hunterdon County, New Jersey",86641,12389
+0600000US3401937065,3401937065,"Kingwood township, Hunterdon County, New Jersey",98791,10907
+0600000US3401938610,3401938610,"Lambertville city, Hunterdon County, New Jersey",73561,9479
+0600000US3401939630,3401939630,"Lebanon borough, Hunterdon County, New Jersey",69643,5251
+0600000US3401939660,3401939660,"Lebanon township, Hunterdon County, New Jersey",97974,23490
+0600000US3401946260,3401946260,"Milford borough, Hunterdon County, New Jersey",74013,8613
+0600000US3401961920,3401961920,"Raritan township, Hunterdon County, New Jersey",114118,7607
+0600000US3401962250,3401962250,"Readington township, Hunterdon County, New Jersey",118465,7075
+0600000US3401970980,3401970980,"Stockton borough, Hunterdon County, New Jersey",56667,11738
+0600000US3401972510,3401972510,"Tewksbury township, Hunterdon County, New Jersey",149899,18307
+0600000US3401974420,3401974420,"Union township, Hunterdon County, New Jersey",110673,15460
+0600000US3401978230,3401978230,"West Amwell township, Hunterdon County, New Jersey",102083,13343
+0600000US3402119780,3402119780,"East Windsor township, Mercer County, New Jersey",86070,3981
+0600000US3402122185,3402122185,"Ewing township, Mercer County, New Jersey",70576,3669
+0600000US3402129310,3402129310,"Hamilton township, Mercer County, New Jersey",72052,2119
+0600000US3402131620,3402131620,"Hightstown borough, Mercer County, New Jersey",64390,6022
+0600000US3402133150,3402133150,"Hopewell borough, Mercer County, New Jersey",116250,18450
+0600000US3402133180,3402133180,"Hopewell township, Mercer County, New Jersey",127955,13448
+0600000US3402139510,3402139510,"Lawrence township, Mercer County, New Jersey",88082,5905
+0600000US3402157600,3402157600,"Pennington borough, Mercer County, New Jersey",110179,17728
+0600000US3402160900,3402160900,"Princeton borough, Mercer County, New Jersey",106551,16150
+0600000US3402160915,3402160915,"Princeton township, Mercer County, New Jersey",105662,9031
+0600000US3402163850,3402163850,"Robbinsville township, Mercer County, New Jersey",100417,14556
+0600000US3402174000,3402174000,"Trenton city, Mercer County, New Jersey",35372,2027
+0600000US3402180240,3402180240,"West Windsor township, Mercer County, New Jersey",131550,7119
+0600000US3402310750,3402310750,"Carteret borough, Middlesex County, New Jersey",55379,5526
+0600000US3402315550,3402315550,"Cranbury township, Middlesex County, New Jersey",134375,20859
+0600000US3402318490,3402318490,"Dunellen borough, Middlesex County, New Jersey",63667,8245
+0600000US3402319000,3402319000,"East Brunswick township, Middlesex County, New Jersey",101283,4186
+0600000US3402320230,3402320230,"Edison township, Middlesex County, New Jersey",83891,2382
+0600000US3402330840,3402330840,"Helmetta borough, Middlesex County, New Jersey",75588,8353
+0600000US3402331470,3402331470,"Highland Park borough, Middlesex County, New Jersey",71307,6357
+0600000US3402334890,3402334890,"Jamesburg borough, Middlesex County, New Jersey",62348,13885
+0600000US3402345690,3402345690,"Metuchen borough, Middlesex County, New Jersey",88864,7790
+0600000US3402345900,3402345900,"Middlesex borough, Middlesex County, New Jersey",79132,5935
+0600000US3402346620,3402346620,"Milltown borough, Middlesex County, New Jersey",92804,15649
+0600000US3402347280,3402347280,"Monroe township, Middlesex County, New Jersey",72421,3827
+0600000US3402351210,3402351210,"New Brunswick city, Middlesex County, New Jersey",45645,2021
+0600000US3402352560,3402352560,"North Brunswick township, Middlesex County, New Jersey",78405,4405
+0600000US3402354705,3402354705,"Old Bridge township, Middlesex County, New Jersey",83531,2384
+0600000US3402358200,3402358200,"Perth Amboy city, Middlesex County, New Jersey",47782,3765
+0600000US3402359010,3402359010,"Piscataway township, Middlesex County, New Jersey",85157,3123
+0600000US3402359280,3402359280,"Plainsboro township, Middlesex County, New Jersey",86014,3604
+0600000US3402365790,3402365790,"Sayreville borough, Middlesex County, New Jersey",72213,3639
+0600000US3402368550,3402368550,"South Amboy city, Middlesex County, New Jersey",54375,5579
+0600000US3402368790,3402368790,"South Brunswick township, Middlesex County, New Jersey",100969,4266
+0600000US3402369390,3402369390,"South Plainfield borough, Middlesex County, New Jersey",89573,3436
+0600000US3402369420,3402369420,"South River borough, Middlesex County, New Jersey",63590,6941
+0600000US3402369810,3402369810,"Spotswood borough, Middlesex County, New Jersey",64736,7532
+0600000US3402382000,3402382000,"Woodbridge township, Middlesex County, New Jersey",77283,1705
+0600000US3402500000,3402500000,"County subdivisions not defined, Monmouth County, New Jersey",-,**
+0600000US3402500070,3402500070,"Aberdeen township, Monmouth County, New Jersey",86675,4888
+0600000US3402500730,3402500730,"Allenhurst borough, Monmouth County, New Jersey",76964,13128
+0600000US3402500760,3402500760,"Allentown borough, Monmouth County, New Jersey",81083,7601
+0600000US3402501960,3402501960,"Asbury Park city, Monmouth County, New Jersey",30923,2458
+0600000US3402502110,3402502110,"Atlantic Highlands borough, Monmouth County, New Jersey",84375,18012
+0600000US3402502440,3402502440,"Avon-by-the-Sea borough, Monmouth County, New Jersey",87650,11557
+0600000US3402504930,3402504930,"Belmar borough, Monmouth County, New Jersey",56701,5319
+0600000US3402506970,3402506970,"Bradley Beach borough, Monmouth County, New Jersey",62925,6620
+0600000US3402507750,3402507750,"Brielle borough, Monmouth County, New Jersey",96700,8721
+0600000US3402514560,3402514560,"Colts Neck township, Monmouth County, New Jersey",170038,15892
+0600000US3402516660,3402516660,"Deal borough, Monmouth County, New Jersey",78281,28527
+0600000US3402519840,3402519840,"Eatontown borough, Monmouth County, New Jersey",56845,7631
+0600000US3402521570,3402521570,"Englishtown borough, Monmouth County, New Jersey",67778,7231
+0600000US3402522440,3402522440,"Fair Haven borough, Monmouth County, New Jersey",107305,15035
+0600000US3402522950,3402522950,"Farmingdale borough, Monmouth County, New Jersey",62563,4606
+0600000US3402525200,3402525200,"Freehold borough, Monmouth County, New Jersey",56890,4776
+0600000US3402525230,3402525230,"Freehold township, Monmouth County, New Jersey",91083,6149
+0600000US3402530690,3402530690,"Hazlet township, Monmouth County, New Jersey",85545,5204
+0600000US3402531500,3402531500,"Highlands borough, Monmouth County, New Jersey",73867,13007
+0600000US3402532640,3402532640,"Holmdel township, Monmouth County, New Jersey",138263,9914
+0600000US3402533300,3402533300,"Howell township, Monmouth County, New Jersey",88709,3997
+0600000US3402534200,3402534200,"Interlaken borough, Monmouth County, New Jersey",116719,13823
+0600000US3402536480,3402536480,"Keansburg borough, Monmouth County, New Jersey",45318,11066
+0600000US3402536810,3402536810,"Keyport borough, Monmouth County, New Jersey",55466,7401
+0600000US3402537560,3402537560,"Lake Como borough, Monmouth County, New Jersey",77813,10948
+0600000US3402540770,3402540770,"Little Silver borough, Monmouth County, New Jersey",149659,24759
+0600000US3402541010,3402541010,"Loch Arbour village, Monmouth County, New Jersey",116250,65752
+0600000US3402541310,3402541310,"Long Branch city, Monmouth County, New Jersey",52456,2981
+0600000US3402542990,3402542990,"Manalapan township, Monmouth County, New Jersey",101528,4081
+0600000US3402543050,3402543050,"Manasquan borough, Monmouth County, New Jersey",91375,19144
+0600000US3402544070,3402544070,"Marlboro township, Monmouth County, New Jersey",129158,4779
+0600000US3402544520,3402544520,"Matawan borough, Monmouth County, New Jersey",63012,6469
+0600000US3402545990,3402545990,"Middletown township, Monmouth County, New Jersey",94549,2595
+0600000US3402546560,3402546560,"Millstone township, Monmouth County, New Jersey",123846,19708
+0600000US3402547130,3402547130,"Monmouth Beach borough, Monmouth County, New Jersey",103750,27957
+0600000US3402549890,3402549890,"Neptune township, Monmouth County, New Jersey",58178,4197
+0600000US3402549920,3402549920,"Neptune City borough, Monmouth County, New Jersey",58413,13648
+0600000US3402554270,3402554270,"Ocean township, Monmouth County, New Jersey",79030,4390
+0600000US3402554570,3402554570,"Oceanport borough, Monmouth County, New Jersey",91979,12843
+0600000US3402562430,3402562430,"Red Bank borough, Monmouth County, New Jersey",62122,7687
+0600000US3402564410,3402564410,"Roosevelt borough, Monmouth County, New Jersey",87105,4706
+0600000US3402565130,3402565130,"Rumson borough, Monmouth County, New Jersey",131875,14821
+0600000US3402566240,3402566240,"Sea Bright borough, Monmouth County, New Jersey",78409,11934
+0600000US3402566330,3402566330,"Sea Girt borough, Monmouth County, New Jersey",93661,14799
+0600000US3402567350,3402567350,"Shrewsbury borough, Monmouth County, New Jersey",104063,19180
+0600000US3402567365,3402567365,"Shrewsbury township, Monmouth County, New Jersey",50699,3212
+0600000US3402570110,3402570110,"Spring Lake borough, Monmouth County, New Jersey",107636,19825
+0600000US3402570140,3402570140,"Spring Lake Heights borough, Monmouth County, New Jersey",73878,5211
+0600000US3402573020,3402573020,"Tinton Falls borough, Monmouth County, New Jersey",81549,3212
+0600000US3402574540,3402574540,"Union Beach borough, Monmouth County, New Jersey",59507,8113
+0600000US3402574900,3402574900,"Upper Freehold township, Monmouth County, New Jersey",107308,14117
+0600000US3402576460,3402576460,"Wall township, Monmouth County, New Jersey",91063,6154
+0600000US3402579310,3402579310,"West Long Branch borough, Monmouth County, New Jersey",84936,16711
+0600000US3402706610,3402706610,"Boonton town, Morris County, New Jersey",79231,7703
+0600000US3402706640,3402706640,"Boonton township, Morris County, New Jersey",108093,21172
+0600000US3402709040,3402709040,"Butler borough, Morris County, New Jersey",78812,6008
+0600000US3402712100,3402712100,"Chatham borough, Morris County, New Jersey",136827,14488
+0600000US3402712130,3402712130,"Chatham township, Morris County, New Jersey",132411,14988
+0600000US3402712580,3402712580,"Chester borough, Morris County, New Jersey",96250,14359
+0600000US3402712610,3402712610,"Chester township, Morris County, New Jersey",159615,14142
+0600000US3402717650,3402717650,"Denville township, Morris County, New Jersey",103799,8429
+0600000US3402718070,3402718070,"Dover town, Morris County, New Jersey",57288,3197
+0600000US3402719210,3402719210,"East Hanover township, Morris County, New Jersey",111429,13431
+0600000US3402723910,3402723910,"Florham Park borough, Morris County, New Jersey",105500,9009
+0600000US3402729550,3402729550,"Hanover township, Morris County, New Jersey",99607,6719
+0600000US3402729700,3402729700,"Harding township, Morris County, New Jersey",176917,26021
+0600000US3402734980,3402734980,"Jefferson township, Morris County, New Jersey",92686,5531
+0600000US3402737110,3402737110,"Kinnelon borough, Morris County, New Jersey",138405,14755
+0600000US3402740290,3402740290,"Lincoln Park borough, Morris County, New Jersey",90680,5633
+0600000US3402741362,3402741362,"Long Hill township, Morris County, New Jersey",116905,12270
+0600000US3402742510,3402742510,"Madison borough, Morris County, New Jersey",103969,9981
+0600000US3402745330,3402745330,"Mendham borough, Morris County, New Jersey",129500,25835
+0600000US3402745360,3402745360,"Mendham township, Morris County, New Jersey",183085,46593
+0600000US3402746860,3402746860,"Mine Hill township, Morris County, New Jersey",100111,9049
+0600000US3402747670,3402747670,"Montville township, Morris County, New Jersey",118750,12171
+0600000US3402748090,3402748090,"Morris township, Morris County, New Jersey",127062,7867
+0600000US3402748210,3402748210,"Morris Plains borough, Morris County, New Jersey",101848,10111
+0600000US3402748300,3402748300,"Morristown town, Morris County, New Jersey",61612,5129
+0600000US3402748480,3402748480,"Mountain Lakes borough, Morris County, New Jersey",181938,31135
+0600000US3402748690,3402748690,"Mount Arlington borough, Morris County, New Jersey",85049,10360
+0600000US3402749080,3402749080,"Mount Olive township, Morris County, New Jersey",74809,5337
+0600000US3402750130,3402750130,"Netcong borough, Morris County, New Jersey",63893,8232
+0600000US3402756460,3402756460,"Parsippany-Troy Hills township, Morris County, New Jersey",84487,3205
+0600000US3402758110,3402758110,"Pequannock township, Morris County, New Jersey",88668,8956
+0600000US3402761890,3402761890,"Randolph township, Morris County, New Jersey",124192,6847
+0600000US3402763300,3402763300,"Riverdale borough, Morris County, New Jersey",60842,5386
+0600000US3402764050,3402764050,"Rockaway borough, Morris County, New Jersey",77292,18007
+0600000US3402764080,3402764080,"Rockaway township, Morris County, New Jersey",94754,4843
+0600000US3402764980,3402764980,"Roxbury township, Morris County, New Jersey",97705,6017
+0600000US3402775890,3402775890,"Victory Gardens borough, Morris County, New Jersey",52407,5577
+0600000US3402777240,3402777240,"Washington township, Morris County, New Jersey",111477,4539
+0600000US3402780390,3402780390,"Wharton borough, Morris County, New Jersey",72457,7627
+0600000US3402900000,3402900000,"County subdivisions not defined, Ocean County, New Jersey",-,**
+0600000US3402903050,3402903050,"Barnegat township, Ocean County, New Jersey",62414,3328
+0600000US3402903130,3402903130,"Barnegat Light borough, Ocean County, New Jersey",65192,22730
+0600000US3402903520,3402903520,"Bay Head borough, Ocean County, New Jersey",89167,21521
+0600000US3402903940,3402903940,"Beach Haven borough, Ocean County, New Jersey",72546,5765
+0600000US3402904180,3402904180,"Beachwood borough, Ocean County, New Jersey",77183,5737
+0600000US3402905305,3402905305,"Berkeley township, Ocean County, New Jersey",42185,1842
+0600000US3402907420,3402907420,"Brick township, Ocean County, New Jersey",66844,2708
+0600000US3402918670,3402918670,"Eagleswood township, Ocean County, New Jersey",59457,4972
+0600000US3402930390,3402930390,"Harvey Cedars borough, Ocean County, New Jersey",89821,42325
+0600000US3402934530,3402934530,"Island Heights borough, Ocean County, New Jersey",81900,6845
+0600000US3402934680,3402934680,"Jackson township, Ocean County, New Jersey",82977,3277
+0600000US3402937380,3402937380,"Lacey township, Ocean County, New Jersey",73750,3016
+0600000US3402937770,3402937770,"Lakehurst borough, Ocean County, New Jersey",64327,7893
+0600000US3402938550,3402938550,"Lakewood township, Ocean County, New Jersey",42618,2074
+0600000US3402939390,3402939390,"Lavallette borough, Ocean County, New Jersey",60194,4549
+0600000US3402940560,3402940560,"Little Egg Harbor township, Ocean County, New Jersey",57176,3662
+0600000US3402941250,3402941250,"Long Beach township, Ocean County, New Jersey",68113,9503
+0600000US3402943140,3402943140,"Manchester township, Ocean County, New Jersey",37397,1303
+0600000US3402943380,3402943380,"Mantoloking borough, Ocean County, New Jersey",119250,52075
+0600000US3402954300,3402954300,"Ocean township, Ocean County, New Jersey",75633,5375
+0600000US3402954450,3402954450,"Ocean Gate borough, Ocean County, New Jersey",64028,9376
+0600000US3402958590,3402958590,"Pine Beach borough, Ocean County, New Jersey",77798,10939
+0600000US3402959790,3402959790,"Plumsted township, Ocean County, New Jersey",77788,9320
+0600000US3402959880,3402959880,"Point Pleasant borough, Ocean County, New Jersey",75737,4363
+0600000US3402959910,3402959910,"Point Pleasant Beach borough, Ocean County, New Jersey",55946,4815
+0600000US3402966450,3402966450,"Seaside Heights borough, Ocean County, New Jersey",32426,16688
+0600000US3402966480,3402966480,"Seaside Park borough, Ocean County, New Jersey",39886,12630
+0600000US3402967110,3402967110,"Ship Bottom borough, Ocean County, New Jersey",61167,14383
+0600000US3402969510,3402969510,"South Toms River borough, Ocean County, New Jersey",65208,7084
+0600000US3402970320,3402970320,"Stafford township, Ocean County, New Jersey",68141,3860
+0600000US3402971640,3402971640,"Surf City borough, Ocean County, New Jersey",65774,14133
+0600000US3402973125,3402973125,"Toms River township, Ocean County, New Jersey",70431,2596
+0600000US3402974210,3402974210,"Tuckerton borough, Ocean County, New Jersey",54355,4856
+0600000US3403106340,3403106340,"Bloomingdale borough, Passaic County, New Jersey",88532,8512
+0600000US3403113690,3403113690,"Clifton city, Passaic County, New Jersey",60412,2855
+0600000US3403129070,3403129070,"Haledon borough, Passaic County, New Jersey",65125,15419
+0600000US3403130570,3403130570,"Hawthorne borough, Passaic County, New Jersey",71684,7381
+0600000US3403140620,3403140620,"Little Falls township, Passaic County, New Jersey",77791,8163
+0600000US3403153040,3403153040,"North Haledon borough, Passaic County, New Jersey",97500,9170
+0600000US3403156550,3403156550,"Passaic city, Passaic County, New Jersey",31022,1970
+0600000US3403157000,3403157000,"Paterson city, Passaic County, New Jersey",33858,1387
+0600000US3403160090,3403160090,"Pompton Lakes borough, Passaic County, New Jersey",89022,7738
+0600000US3403161170,3403161170,"Prospect Park borough, Passaic County, New Jersey",67689,5714
+0600000US3403163150,3403163150,"Ringwood borough, Passaic County, New Jersey",101039,9373
+0600000US3403173140,3403173140,"Totowa borough, Passaic County, New Jersey",68818,10841
+0600000US3403176730,3403176730,"Wanaque borough, Passaic County, New Jersey",82641,7804
+0600000US3403177840,3403177840,"Wayne township, Passaic County, New Jersey",98627,4045
+0600000US3403179460,3403179460,"West Milford township, Passaic County, New Jersey",90680,4649
+0600000US3403182423,3403182423,"Woodland Park borough, Passaic County, New Jersey",64383,10412
+0600000US3403300880,3403300880,"Alloway township, Salem County, New Jersey",86434,7054
+0600000US3403310610,3403310610,"Carneys Point township, Salem County, New Jersey",51739,5171
+0600000US3403321240,3403321240,"Elmer borough, Salem County, New Jersey",67500,3130
+0600000US3403321330,3403321330,"Elsinboro township, Salem County, New Jersey",63750,9987
+0600000US3403341640,3403341640,"Lower Alloways Creek township, Salem County, New Jersey",65947,1646
+0600000US3403343200,3403343200,"Mannington township, Salem County, New Jersey",62692,12229
+0600000US3403354810,3403354810,"Oldmans township, Salem County, New Jersey",65660,5774
+0600000US3403357750,3403357750,"Penns Grove borough, Salem County, New Jersey",32625,11112
+0600000US3403357870,3403357870,"Pennsville township, Salem County, New Jersey",59875,5062
+0600000US3403358530,3403358530,"Pilesgrove township, Salem County, New Jersey",90000,13858
+0600000US3403359130,3403359130,"Pittsgrove township, Salem County, New Jersey",73508,6038
+0600000US3403361470,3403361470,"Quinton township, Salem County, New Jersey",63006,8906
+0600000US3403365490,3403365490,"Salem city, Salem County, New Jersey",28397,2246
+0600000US3403375110,3403375110,"Upper Pittsgrove township, Salem County, New Jersey",71938,9611
+0600000US3403382720,3403382720,"Woodstown borough, Salem County, New Jersey",60234,10696
+0600000US3403504450,3403504450,"Bedminster township, Somerset County, New Jersey",100151,13912
+0600000US3403505560,3403505560,"Bernards township, Somerset County, New Jersey",123470,5253
+0600000US3403505590,3403505590,"Bernardsville borough, Somerset County, New Jersey",139340,16545
+0600000US3403506790,3403506790,"Bound Brook borough, Somerset County, New Jersey",69657,5853
+0600000US3403507180,3403507180,"Branchburg township, Somerset County, New Jersey",116759,7649
+0600000US3403507720,3403507720,"Bridgewater township, Somerset County, New Jersey",105990,3341
+0600000US3403522890,3403522890,"Far Hills borough, Somerset County, New Jersey",110625,16607
+0600000US3403524900,3403524900,"Franklin township, Somerset County, New Jersey",88118,2199
+0600000US3403527510,3403527510,"Green Brook township, Somerset County, New Jersey",115549,15892
+0600000US3403531890,3403531890,"Hillsborough township, Somerset County, New Jersey",102834,4252
+0600000US3403543620,3403543620,"Manville borough, Somerset County, New Jersey",54397,4832
+0600000US3403546590,3403546590,"Millstone borough, Somerset County, New Jersey",95625,14322
+0600000US3403547580,3403547580,"Montgomery township, Somerset County, New Jersey",145827,9810
+0600000US3403553280,3403553280,"North Plainfield borough, Somerset County, New Jersey",64492,2980
+0600000US3403557300,3403557300,"Peapack and Gladstone borough, Somerset County, New Jersey",121382,13657
+0600000US3403561980,3403561980,"Raritan borough, Somerset County, New Jersey",70979,5406
+0600000US3403564320,3403564320,"Rocky Hill borough, Somerset County, New Jersey",97656,25825
+0600000US3403568460,3403568460,"Somerville borough, Somerset County, New Jersey",68559,5878
+0600000US3403568730,3403568730,"South Bound Brook borough, Somerset County, New Jersey",70034,10049
+0600000US3403576940,3403576940,"Warren township, Somerset County, New Jersey",131329,20332
+0600000US3403577600,3403577600,"Watchung borough, Somerset County, New Jersey",100000,21605
+0600000US3403701330,3403701330,"Andover borough, Sussex County, New Jersey",77969,23112
+0600000US3403701360,3403701360,"Andover township, Sussex County, New Jersey",91500,7083
+0600000US3403707300,3403707300,"Branchville borough, Sussex County, New Jersey",57083,31972
+0600000US3403709160,3403709160,"Byram township, Sussex County, New Jersey",102904,6919
+0600000US3403724810,3403724810,"Frankford township, Sussex County, New Jersey",98004,6085
+0600000US3403724930,3403724930,"Franklin borough, Sussex County, New Jersey",64362,9000
+0600000US3403725140,3403725140,"Fredon township, Sussex County, New Jersey",109130,11949
+0600000US3403727420,3403727420,"Green township, Sussex County, New Jersey",98125,10514
+0600000US3403729220,3403729220,"Hamburg borough, Sussex County, New Jersey",60558,6128
+0600000US3403729490,3403729490,"Hampton township, Sussex County, New Jersey",85318,10999
+0600000US3403729850,3403729850,"Hardyston township, Sussex County, New Jersey",80739,5172
+0600000US3403732910,3403732910,"Hopatcong borough, Sussex County, New Jersey",83814,4573
+0600000US3403737440,3403737440,"Lafayette township, Sussex County, New Jersey",89219,9397
+0600000US3403747430,3403747430,"Montague township, Sussex County, New Jersey",62736,5058
+0600000US3403751930,3403751930,"Newton town, Sussex County, New Jersey",44109,6277
+0600000US3403754660,3403754660,"Ogdensburg borough, Sussex County, New Jersey",80648,7737
+0600000US3403765700,3403765700,"Sandyston township, Sussex County, New Jersey",58102,10711
+0600000US3403769690,3403769690,"Sparta township, Sussex County, New Jersey",107562,6249
+0600000US3403770380,3403770380,"Stanhope borough, Sussex County, New Jersey",73024,9419
+0600000US3403770890,3403770890,"Stillwater township, Sussex County, New Jersey",81926,10097
+0600000US3403771670,3403771670,"Sussex borough, Sussex County, New Jersey",37481,8602
+0600000US3403775740,3403775740,"Vernon township, Sussex County, New Jersey",79450,5002
+0600000US3403776640,3403776640,"Walpack township, Sussex County, New Jersey",105625,206334
+0600000US3403776790,3403776790,"Wantage township, Sussex County, New Jersey",78275,7371
+0600000US3403905320,3403905320,"Berkeley Heights township, Union County, New Jersey",129824,9754
+0600000US3403913150,3403913150,"Clark township, Union County, New Jersey",78044,5527
+0600000US3403915640,3403915640,"Cranford township, Union County, New Jersey",104315,4838
+0600000US3403921000,3403921000,"Elizabeth city, Union County, New Jersey",43707,1645
+0600000US3403922860,3403922860,"Fanwood borough, Union County, New Jersey",115382,11427
+0600000US3403925800,3403925800,"Garwood borough, Union County, New Jersey",67344,7237
+0600000US3403931980,3403931980,"Hillside township, Union County, New Jersey",60602,5364
+0600000US3403936690,3403936690,"Kenilworth borough, Union County, New Jersey",68700,8823
+0600000US3403940350,3403940350,"Linden city, Union County, New Jersey",56467,2172
+0600000US3403948510,3403948510,"Mountainside borough, Union County, New Jersey",126287,20112
+0600000US3403951810,3403951810,"New Providence borough, Union County, New Jersey",111858,12188
+0600000US3403959190,3403959190,"Plainfield city, Union County, New Jersey",50102,3275
+0600000US3403961530,3403961530,"Rahway city, Union County, New Jersey",61751,5557
+0600000US3403964620,3403964620,"Roselle borough, Union County, New Jersey",60558,3771
+0600000US3403964650,3403964650,"Roselle Park borough, Union County, New Jersey",57931,5451
+0600000US3403966060,3403966060,"Scotch Plains township, Union County, New Jersey",101702,2421
+0600000US3403970020,3403970020,"Springfield township, Union County, New Jersey",86458,10047
+0600000US3403971430,3403971430,"Summit city, Union County, New Jersey",111989,12316
+0600000US3403974480,3403974480,"Union township, Union County, New Jersey",72181,3995
+0600000US3403979040,3403979040,"Westfield town, Union County, New Jersey",128418,9816
+0600000US3403981650,3403981650,"Winfield township, Union County, New Jersey",61146,14796
+0600000US3404100670,3404100670,"Allamuchy township, Warren County, New Jersey",86161,7688
+0600000US3404101030,3404101030,"Alpha borough, Warren County, New Jersey",62066,11985
+0600000US3404104990,3404104990,"Belvidere town, Warren County, New Jersey",57969,9484
+0600000US3404106160,3404106160,"Blairstown township, Warren County, New Jersey",80436,8549
+0600000US3404124960,3404124960,"Franklin township, Warren County, New Jersey",84718,10054
+0600000US3404125320,3404125320,"Frelinghuysen township, Warren County, New Jersey",92500,7191
+0600000US3404128260,3404128260,"Greenwich township, Warren County, New Jersey",105417,16046
+0600000US3404128710,3404128710,"Hackettstown town, Warren County, New Jersey",55929,5817
+0600000US3404129820,3404129820,"Hardwick township, Warren County, New Jersey",89000,8506
+0600000US3404130090,3404130090,"Harmony township, Warren County, New Jersey",80536,11520
+0600000US3404133060,3404133060,"Hope township, Warren County, New Jersey",76029,5750
+0600000US3404133930,3404133930,"Independence township, Warren County, New Jersey",84028,5584
+0600000US3404137320,3404137320,"Knowlton township, Warren County, New Jersey",79296,5211
+0600000US3404140110,3404140110,"Liberty township, Warren County, New Jersey",77679,9940
+0600000US3404141490,3404141490,"Lopatcong township, Warren County, New Jersey",76429,8034
+0600000US3404143320,3404143320,"Mansfield township, Warren County, New Jersey",71847,9621
+0600000US3404155530,3404155530,"Oxford township, Warren County, New Jersey",65469,11484
+0600000US3404158350,3404158350,"Phillipsburg town, Warren County, New Jersey",43125,3035
+0600000US3404159820,3404159820,"Pohatcong township, Warren County, New Jersey",70577,10022
+0600000US3404177270,3404177270,"Washington borough, Warren County, New Jersey",58750,14854
+0600000US3404177300,3404177300,"Washington township, Warren County, New Jersey",88064,7360
+0600000US3404180570,3404180570,"White township, Warren County, New Jersey",63462,7601
