@@ -514,12 +514,16 @@
          */
         this.sendHeight = function() {
             // Get the child's height.
-            var height = document.getElementById("njam-container").offsetHeight.toString();
+            
+
+             var grids = document.getElementsByClassName('grid')[0].offsetHeight
 
             // document.getElementsByTagName('body')[0]
             // document.getElementById("ibt-container")
 
-            console.log(height)
+            var intro = document.getElementsByClassName('intro_text')[0].offsetHeight
+
+            var height = intro + intro + grids
 
 
             // Send the height to the parent.
