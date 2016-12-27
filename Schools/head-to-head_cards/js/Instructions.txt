@@ -1,0 +1,7 @@
+Instructions
+
+Run latest data through first iPython notebook in the /data_latest folder
+
+Run the previous year's data through through second iPython notebook in the /data_previous
+
+Get the two resulting CSVs and put them together in the /data_merge
