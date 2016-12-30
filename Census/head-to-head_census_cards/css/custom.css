@@ -1,316 +1,244 @@
 #njam-container {
-  font-size: 10px;
-  font-family: 'Source Sans Pro', sans-serif;
-  fill: #333;
-  margin: 0;
-  min-height: 400px;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    fill: #333;
+    margin: 0;
+    max-width: 620px;
+    min-height: 400px;
 }
-
 #njam-container div.btn-group.bootstrap-select {
-  margin-bottom: 30px;
-  width: 90%;
+    margin-bottom: 30px;
+    width: 90%;
 }
-
 #njam-container h1 {
-  font-size: 22px;
+    font-size: 22px;
 }
-
-.intro_text h2  {
-  font-size: 20px;
-  text-transform: uppercase;
-
+.intro_text h2 {
+    font-size: 20px;
+    text-transform: uppercase;
 }
-
 .intro_text p {
-  font-size: 14px;
+    font-size: 14px;
 }
-
 .intro_text {
-
-  clear: both;
+    clear: both;
 }
 .credit p {
-  font-size: 12px;
-  margin: 0;
-  padding:0;
-  color: #333;
-  text-transform: uppercase;
-
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-transform: uppercase;
 }
-
 .credit {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-
-
-
-html, body, #njam-container {
-  height: 100%;
+html,
+body,
+#njam-container {
+    height: 100%;
 }
-
 h2 {
-  font-size: 22px;
+    font-size: 22px;
 }
-
-
-/* ---- isotope ---- */
-
 .grid {
-  width: 49%;
-  min-height: 150px;
-  float: left;
-
- /* border: 1px solid #333;*/
-
- 
+    width: 49%;
+    min-height: 150px;
+    float: left;
 }
-/*#county1 {
-  float: left;
-  width: 49%;
-  float: left;
-
-}*/
-
-/* clear fix */
-/*.grid:after {
-  content: '';
-  clear: both;
-}*/
-
 .grid2 {
-  width: 49%;
-  min-height: 150px;
-  float: left ;
-    /*border: 1px solid #333;*/
+    width: 49%;
+    min-height: 150px;
+    float: left;
 }
-
 #both_grids {
-  width: 100%;
-  margin: auto;
-  height: auto;
+    width: 100%;
+    margin: auto;
+    height: auto;
 }
-
-/* clear fix */
-/*.grid2:after {
-  content: '';
-  clear: both;
-}*/
-
-/*#both_grids:after {
-  content: '';
-  clear: both;
-}*/
-
 /* ---- .element-item ---- */
 
 .element-item {
-  position: relative;
-  float: left;
-  width: 80%;
-  height: auto;
-  margin: 5px;
-  padding: 10px;
-  background: #F2F2F2;
-  background-color: rgba(242, 242, 242, 0.5);
-  border: 1px dashed black;
-  color: #262524;
+    position: relative;
+    float: left;
+    width: 80%;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+    background: #F2F2F2;
+    background-color: rgba(242, 242, 242, 0.5);
+    border: 1px dashed black;
+    color: #262524;
 }
-
 .element-item > * {
- 
-  padding: 0;
+    padding: 0;
 }
-
-
-
-.element-item .symbol {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  color: steelblue;
-  margin-bottom: 10px;
+.element-item .name {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: steelblue;
+    margin-bottom: 10px;
 }
-
 .element-item .crit {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  color: steelblue;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: steelblue;
 }
-
 .element-item .separate {
-  color: #333;
-  font-weight: bold;
+    color: #333;
+    font-weight: bold;
 }
-
 .element-item .bolded {
-  color: steelblue;
-  font-weight: bold;
-  font-size: 14px;
-  padding-top: 0;
-
+    color: steelblue;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 0;
 }
-
 .element-item .race {
-  color: #333;
-  font-weight: bold;
-  font-size: 11px;
-  
-
+    color: #333;
+    font-weight: bold;
+    font-size: 11px;
 }
-
 small {
-  font-size: 11px;
-  line-height: 1;
+    font-size: 11px;
+    line-height: 1;
 }
-
 table {
-  border-collapse: collapse;
-  margin: 0 auto 20px auto;
-
+    border-collapse: collapse;
+    margin: 0 auto 20px auto;
 }
 
-/*#criteria {
-  display: block;
-}*/
-
-
-.element-item td,.element-item th {
-  border: none;
-  padding: 0.3rem;
-}
-
+.element-item td,
 .element-item th {
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  text-transform: uppercase;
+    border: none;
+    padding: 0.3rem;
 }
-
+.element-item th {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
 .element-item img {
-  width: 40px;
-  display:block;
-margin: 0 auto;
+    width: 40px;
+    display: block;
+    margin: 0 auto;
 }
-
 .element-item td {
-  font-size: 11px;
-  color: #666;
-  font-family: Arial, sans-serif;
- 
- 
+    font-size: 11px;
+    color: #666;
+    font-family: Arial, sans-serif;
 }
-
 .element-item .separate2 {
-  padding-top: 0.9rem;
+    padding-top: 0.9rem;
 }
-
-
 @media only screen and (max-width: 450px) {
     /* For mobile phones: */
-   
-  
     /* Force table to not be like tables anymore */
-    table, thead, tbody, th, td, tr { 
-      display: block; 
+    
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
     }
-
     h1 {
-      font-size: 25px;
-      line-height: 1.2;
+        font-size: 25px;
+        line-height: 1.2;
     }
-
     .element-item .crit {
-      font-size: 13px;
+        font-size: 13px;
     }
-
-
-   
-
-
-    body { padding-right: 0px !important; padding-left: 0px !important; margin: 0; }
-    
+    body {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin: 0;
+    }
     /* Hide table headers (but not display: none;, for accessibility) */
-    thead tr { 
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-
     
-    tr { 
-      padding-bottom: 5%;
-      border-bottom: 1px solid #ccc; }
-    
-    td { 
-      /* Behave  like a "row" */
-      border: none;
-      border-bottom: 1px solid #eee; 
-      position: relative;
-      padding-top: 20%;
-      text-align: right;
-      height: 70%;  
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
     }
-
+    tr {
+        padding-bottom: 5%;
+        border-bottom: 1px solid #ccc;
+    }
+    td {
+        /* Behave  like a "row" */
+        
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-top: 20%;
+        text-align: right;
+        height: 70%;
+    }
     .element-item .symbol {
-      font-size: 15px;
+        font-size: 15px;
     }
-
-  .element-item .bolded  {
-      font-size: 12px;
-      padding-top: 5%;
-
+    .element-item .bolded {
+        font-size: 12px;
+        padding-top: 5%;
     }
-
     .element-item .separate2 {
-      padding-top: 5%;
+        padding-top: 5%;
     }
-
     table.display td.center {
-      text-align: right;
+        text-align: right;
     }
-
     table.display td {
-      padding: 30px 10px 3px 10px;
+        padding: 30px 10px 3px 10px;
     }
-    
-    td:before { 
-      /* Now like a table header */
-      position: absolute;
-      /* Top/left values mimic padding */
-      top: 6px;
-      left: 6px;
-      width: 45%;  
-      padding-right: 10px; 
-      white-space: nowrap;
+    td:before {
+        /* Now like a table header */
+        
+        position: absolute;
+        /* Top/left values mimic padding */
+        
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
     }
-    
     /*
-    Label the data for mobile use
+    Change the labels for mobile use
     */
-    td:nth-of-type(1):before { content: ""; font-weight: bold; text-align:left; }
-    td:nth-of-type(2):before { content: "2011-2015"; font-weight: bold; text-align:left; }
-    td:nth-of-type(3):before { content: "2005-2009"; font-weight: bold; text-align:left; }
-    td:nth-of-type(4):before { content: "Change"; font-weight: bold; text-align:left; }
     
-  }
-
-
-
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  
+    td:nth-of-type(1):before {
+        content: "";
+        font-weight: bold;
+        text-align: left;
+    }
+    td:nth-of-type(2):before {
+        content: "2011-2015";
+        font-weight: bold;
+        text-align: left;
+    }
+    td:nth-of-type(3):before {
+        content: "2005-2009";
+        font-weight: bold;
+        text-align: left;
+    }
+    td:nth-of-type(4):before {
+        content: "Change";
+        font-weight: bold;
+        text-align: left;
+    }
 }
-
-
-
-#njam-container {
-  font-family: 'Source Sans Pro', sans-serif;
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {} #njam-container {
+    font-family: 'Source Sans Pro',
+    sans-serif;
 }
