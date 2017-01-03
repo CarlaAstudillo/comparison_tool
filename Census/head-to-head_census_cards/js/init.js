@@ -18,11 +18,11 @@ for (var selector in config) {
     $(selector).chosen(config[selector]);
 }
 
-// Change link to csv here [WRITE UP]
+// Change link to csv here
 
 var url = "data/ultimate_census_data.csv"
 
-// Change the margin of error text here [WRITE UP]
+// Change the margin of error text here
 
 var moe_text = "<small>* Margin of Error is larger than 10 percent of the total value due to small sample size. Discretion is advised when interpreting data.</small>"
 
@@ -63,7 +63,14 @@ function addCommas(nStr) {
 function moe_asterisk(first_moe, second_moe) {
     if (first_moe > 10 || second_moe > 10) {
         return "*"
-    } else {
+    } else if (first_moe == "**" || second_moe == "**") {
+        return "*"
+    } else if (first_moe == "-" || second_moe == "-") {
+        return "*"
+
+    }
+
+    else {
         return ""
     }
 }
@@ -108,13 +115,13 @@ function create_cards(data) {
             //Get all unique county names, put them on a list and add them to the county dropdown
 
 
-            if (usedNames.indexOf(thisrow.County) == -1) {
-                var option = $('<option value="' + thisrow.County + '">' + thisrow.County + '</option>');
-                var option2 = $('<option value="' + thisrow.County + '">' + thisrow.County + '</option>');
+            if (usedNames.indexOf(thisrow["County"]) == -1) {
+                var option = $('<option value="' + thisrow["County"] + '">' + thisrow["County"] + '</option>');
+                var option2 = $('<option value="' + thisrow["County"] + '">' + thisrow["County"] + '</option>');
 
                 dropdown_county1.append(option);
                 dropdown_county2.append(option2);
-                usedNames.push(thisrow.County);
+                usedNames.push(thisrow["County"]);
 
             }
 
@@ -224,7 +231,7 @@ function create_cards(data) {
                         gridsquares += '<p class="name">' + key["ledgerstyle"] + '</p>' + moe_text
 
 
-                        // First Section 
+                        // First Section [WRITE UP]
 
                         gridsquares += '<img src="img/median_income.svg"><p class="crit">Household Median Income</p><table><thead><tr><th></th><th>2011-2015</th><th>2005-2009</th><th>Change</th></tr></thead><tbody><tr><td></td><td class="bolded">$' + key["median_income_latest"].toLocaleString() + moe_asterisk(key["median_income_moe_latest_per"]) + '</td><td class="bolded">$' + key["median_income_prev"].toLocaleString() + moe_asterisk(key["median_income_moe_prev_per"]) + '</td><td class="bolded">' + plus_minus(key["median_income_change"]) + key["median_income_change"].toFixed(1) + '%' + moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"]) + '</td></tr><tr><td class="separate separate2">NJ</td><td class="separate2">$' + key["nj_median_income_latest"].toLocaleString() + '</td><td class="separate2">$' + key["nj_median_income_prev"].toLocaleString() + '</td><td class="separate2">' + plus_minus(key["nj_median_income_change"]) + key["nj_median_income_change"].toFixed(1) + '%</td></tr><tr><td class="separate">US</td><td>$' + key["usa_median_income_latest"].toLocaleString() + '</td><td>$' + key["usa_median_income_prev"].toLocaleString() + '</td><td>' + plus_minus(key["usa_median_income_change"]) + key["usa_median_income_change"].toFixed(1) + '%</td></tr></tbody></table>'
 
@@ -236,7 +243,7 @@ function create_cards(data) {
 
                         // Third Section
 
-                        gridsquares += '<img src="img/age.svg"><p class="crit">Median Age</p><table><thead><tr><th></th><th>2011-2015</th><th>2005-2009</th><th>Change</th></tr></thead><tbody><tr><td></td><td class="bolded">' + key["median_age_latest"].toLocaleString() + ' yrs' + moe_asterisk(key["median_age_moe_latest_per"]) + '</td><td class="bolded">' + key["median_age_prev"].toLocaleString() + ' yrs' + moe_asterisk(key["median_age_moe_prev_per"]) + '</td><td class="bolded">' + plus_minus(key["median_age_change"]) + key["median_age_change"].toFixed(1) + '%' + moe_asterisk(key["median_age_moe_latest_per"], key["median_age_moe_prev_per"]) + '</td></tr><tr><td class="separate separate2">NJ</td><td class="separate2">' + key["nj_median_age_latest"].toLocaleString() + '</td><td class="separate2">' + key["nj_median_age_prev"].toLocaleString() + '</td><td class="separate2">' + plus_minus(key["nj_median_age_change"]) + key["nj_median_age_change"].toFixed(1) + '%</td></tr><tr><td class="separate">US</td><td>' + key["usa_median_age_latest"].toLocaleString() + '</td><td>' + key["usa_median_age_prev"].toLocaleString() + '</td><td>' + plus_minus(key["usa_median_age_change"]) + key.usa_median_age_change.toFixed(1) + '%</td></tr></tbody></table>'
+                        gridsquares += '<img src="img/age.svg"><p class="crit">Median Age</p><table><thead><tr><th></th><th>2011-2015</th><th>2005-2009</th><th>Change</th></tr></thead><tbody><tr><td></td><td class="bolded">' + key["median_age_latest"].toLocaleString() + ' yrs' + moe_asterisk(key["median_age_moe_per_latest"]) + '</td><td class="bolded">' + key["median_age_prev"].toLocaleString() + ' yrs' + moe_asterisk(key["median_age_moe_per_prev"]) + '</td><td class="bolded">' + plus_minus(key["median_age_change"]) + key["median_age_change"].toFixed(1) + '%' + moe_asterisk(key["median_age_moe_latest_per"], key["median_age_moe_prev_per"]) + '</td></tr><tr><td class="separate separate2">NJ</td><td class="separate2">' + key["nj_median_age_latest"].toLocaleString() + '</td><td class="separate2">' + key["nj_median_age_prev"].toLocaleString() + '</td><td class="separate2">' + plus_minus(key["nj_median_age_change"]) + key["nj_median_age_change"].toFixed(1) + '%</td></tr><tr><td class="separate">US</td><td>' + key["usa_median_age_latest"].toLocaleString() + '</td><td>' + key["usa_median_age_prev"].toLocaleString() + '</td><td>' + plus_minus(key["usa_median_age_change"]) + key.usa_median_age_change.toFixed(1) + '%</td></tr></tbody></table>'
 
                         // Fourth section
 
