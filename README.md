@@ -37,10 +37,11 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 
 **2. Open up init.js and change some things**
 
-	*Change csv link to the correct csv name
+*Change csv link to the correct csv name
+
 	```var url = "data/ultimate_census_data.csv"```
 
-	*Change customize Margin of Error text. This text will be featured at the top of each card. You can move the position later on in the javascript.
+*Change customize Margin of Error text. This text will be featured at the top of each card. You can move the position later on in the javascript.
 
 	```var moe_text = "<small>* Margin of Error is larger than 10 percent of the total value due to small sample size. Discretion is advised when interpreting data.</small>"```	
 
