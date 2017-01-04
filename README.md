@@ -53,16 +53,20 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 **3. Where the magic happens**
 
    a.k.a the function that populates each card.
+
    ![Populate Cards Function](Census/head-to-head_census_cards/img/github_img/populate_cards_function.png)
 
    Let's break it down a bit. Using the Papa Parser earlier in the script, we turned the csv into a JSON array called entry. This function loops through all of entry to find the option picked on the dropdown. For more info on how that works, read through the comments in the javascript.
+
 	function populate_cards(btn_value, thegrid, thedropdown) {
                 $.each(entry, function(index, key) {
+
    Next, we initiate the if statement which goes through every row and sees if the btn_value matches either the county or the town. 
 
    ![If Statement](Census/head-to-head_census_cards/img/github_img/if_statement.png)
    
    Let's break it down even further.
+
 	(btn_value == key["County"] && btn_value + " County" == key["ledgerstyle"])
 
    This first part tries to match the btn_value to both the "County" and the "ledgerstyle" column. If the county that the reader picked matches any row with the same county name in the "County" and "ledgerstyle" columns, it will return only that row.
@@ -85,9 +89,11 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
    ![First Section What it should look like](Census/head-to-head_census_cards/img/github_img/first_section_example.png)
 
    Change corresponding column names to the ones in your csv. Don't forget the `.toLocaleString()` after to add commas, if it's an integer. If, for some reason, your numbers are a string, add the function `addCommas()` to add commas to a string. For example:
+
 	addCommas(key["homevalue_latest"])
 
    This function calculates the margin of error. You can input up to two numbers.
+
 	moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"])
 
    The function is defined earlier in the script. As you can see, it takes the latest and previous margin of error percentage numbers and if they are higher than 10, it adds an asterisk. You can customized the function to whatever number you want.
@@ -95,6 +101,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
    ![MOE Asterisk function](Census/head-to-head_census_cards/img/github_img/moe_asterisk.png)
 
    This function adds a plus or minus sign in front of percent change.
+   
 	plus_minus(key["nj_median_age_change"])
 
    The function is defined earlier in the script. It takes the percent change, and if it's higher than 0, it adds a plus sign.
