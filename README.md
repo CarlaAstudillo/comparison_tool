@@ -43,20 +43,20 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 
 	var moe_text = "<small>* Margin of Error is larger than 10 percent of the total value due to small sample size. Discretion is advised when interpreting data.</small>"
 
-   ![County Name Columns](img/github_img/county_name_columns.png)	
+   ![County Name Columns](Census/head-to-head_census_cards/img/github_img/county_name_columns.png)	
    This part of the javascript file gets all of the unique county names in the county column and populates the county dropdown menu. Make sure it's the correct column name ("County")
 
    
 
 **3. Where the magic happens**
    a.k.a the function that populates each card.
-   ![Populate Cards Function](img/github_img/populate_cards_function.png)
+   ![Populate Cards Function](Census/head-to-head_census_cards/img/github_img/populate_cards_function.png)
 
    Let's break it down a bit. Using the Papa Parser earlier in the script, we turned the csv into a JSON array called entry. This function loops through all of entry to find the option picked on the dropdown. For more info on how that works, read through the comments in the javascript.
 	function populate_cards(btn_value, thegrid, thedropdown) {
                 $.each(entry, function(index, key) {
    Next, we initiate the if statement which goes through every row and sees if the btn_value matches either the county or the town. 
-   ![If Statement](img/github_img/if_statement.png)
+   ![If Statement](Census/head-to-head_census_cards/img/github_img/if_statement.png)
    Let's break it down even further.
     (btn_value == key["County"] && btn_value + " County" == key["ledgerstyle"])
    This first part tries to match the btn_value to both the "County" and the "ledgerstyle" column. If the county that the reader picked matches any row with the same county name in the "County" and "ledgerstyle" columns, it will return only that row.
@@ -80,20 +80,20 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
     moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"])
 
    The function is defined earlier in the script. As you can see, it takes the latest and previous margin of error percentage numbers and if they are higher than 10, it adds an asterisk. You can customized the function to whatever number you want.
-   ![MOE Asterisk function](img/github_img/moe_asterisk.png)
+   ![MOE Asterisk function](Census/head-to-head_census_cards/img/github_img/moe_asterisk.png)
 
    This function adds a plus or minus sign in front of percent change.
     plus_minus(key["nj_median_age_change"])
 
    The function is defined earlier in the script. It takes the percent change, and if it's higher than 0, it adds a plus sign.
-   ![Plus Minus function](img/github_img/plus_minus_fct.png)
+   ![Plus Minus function](Census/head-to-head_census_cards/img/github_img/plus_minus_fct.png)
 
    You can also write your very own function, and add it to the tool.
 
    **4. Change the Intro Text**
    Open up the index.html file and edit the introductory text enclosed in intro_text div.
 
-   ![Intro Text](img/github_img/intro_text1.png)
+   ![Intro Text](Census/head-to-head_census_cards/img/github_img/intro_text1.png)
 
    In order for the introductory text to not look like a huge wall of text in mobile, I added a second intro_text div at the bottom of the html file. You can customize as you wish.
 
@@ -101,7 +101,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 
    Don't forget to change the table headers for mobile use. If you added more columns to the tables, make sure to add another `td:nth-of-type` in the css. 
 
-   ![CSS Change](img/github_img/css_change.png) 
+   ![CSS Change](Census/head-to-head_census_cards/img/github_img/css_change.png) 
 
 
 
