@@ -37,6 +37,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 **Note:** The actual numbers themselves can be either strings or integers. However, if you're planning on putting a column through any kind of function (adding an moe asterisk or a plus/minus sign), make sure these numbers are integers. 
 
 **2. Open up init.js**
+
    Change csv link to the correct csv name
 
 	var url = "data/ultimate_census_data.csv"
@@ -45,6 +46,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 	var moe_text = "<small>* Margin of Error is larger than 10 percent of the total value due to small sample size. Discretion is advised when interpreting data.</small>"
 
    ![Used Names function](Census/head-to-head_census_cards/img/github_img/usedNames.png)
+
    This part of the javascript file gets all of the unique county names in the county column and populates the county dropdown menu. Make sure it's the correct column name ("County")
 
 
@@ -64,6 +66,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 	(btn_value == key["County"] && btn_value + " County" == key["ledgerstyle"])
 
    This first part tries to match the btn_value to both the "County" and the "ledgerstyle" column. If the county that the reader picked matches any row with the same county name in the "County" and "ledgerstyle" columns, it will return only that row.
+
 	(btn_value == key["ledgerstyle"] && county1value == key["County"]) || (btn_value == key["ledgerstyle"] && county2value == key["County"]))
 
    This second part tries to match the btn_value, if a town is picked, to the "ledgerstyle" column. It also takes the county picked earlier and matches it to the "County" column. This is done so that towns with the same name, but different counties get picked correctly.
