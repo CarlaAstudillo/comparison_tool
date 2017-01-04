@@ -213,9 +213,7 @@ table {
         padding-right: 10px;
         white-space: nowrap;
     }
-    /*
-    Change the labels for mobile use
-    */
+    /*Change the labels for mobile use*/
     
     td:nth-of-type(1):before {
         content: "";
@@ -237,6 +235,7 @@ table {
         font-weight: bold;
         text-align: left;
     }
+
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {} #njam-container {
     font-family: 'Source Sans Pro',

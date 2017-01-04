@@ -523,6 +523,12 @@
 
             var intro = document.getElementsByClassName('intro_text')[0].offsetHeight
 
+            var intro1 = document.getElementsByClassName('intro_text')[1].offsetHeight
+
+            console.log("intro: " + intro)
+
+            console.log("intro1: " + intro1)
+
 
             var height = intro + intro + grids
 

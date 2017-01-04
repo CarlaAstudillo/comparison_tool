@@ -218,12 +218,15 @@ function create_cards(data) {
                 //A loop that goes through the entry array created earlier 
                 $.each(entry, function(index, key) {
 
+               
+
 
                     //Goes through every row and sees if the btn_value matches either the county or the town. If it matches the town, it also checks to see if the county dropdown option matches the county. This is for towns with the same names in different counties.  
                     if ((btn_value == key["County"] && btn_value + " County" == key["ledgerstyle"]) || (btn_value == key["ledgerstyle"] && county1value == key["County"]) || (btn_value == key["ledgerstyle"] && county2value == key["County"])) {
 
 
-                        //Initializes the div
+
+                        //Initializes the variable where all of the html will be appended
                         var gridsquares = '<div class="element-item">'
 
 
@@ -231,7 +234,7 @@ function create_cards(data) {
                         gridsquares += '<p class="name">' + key["ledgerstyle"] + '</p>' + moe_text
 
 
-                        // First Section [WRITE UP]
+                        // First Section
 
                         gridsquares += '<img src="img/median_income.svg"><p class="crit">Household Median Income</p><table><thead><tr><th></th><th>2011-2015</th><th>2005-2009</th><th>Change</th></tr></thead><tbody><tr><td></td><td class="bolded">$' + key["median_income_latest"].toLocaleString() + moe_asterisk(key["median_income_moe_latest_per"]) + '</td><td class="bolded">$' + key["median_income_prev"].toLocaleString() + moe_asterisk(key["median_income_moe_prev_per"]) + '</td><td class="bolded">' + plus_minus(key["median_income_change"]) + key["median_income_change"].toFixed(1) + '%' + moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"]) + '</td></tr><tr><td class="separate separate2">NJ</td><td class="separate2">$' + key["nj_median_income_latest"].toLocaleString() + '</td><td class="separate2">$' + key["nj_median_income_prev"].toLocaleString() + '</td><td class="separate2">' + plus_minus(key["nj_median_income_change"]) + key["nj_median_income_change"].toFixed(1) + '%</td></tr><tr><td class="separate">US</td><td>$' + key["usa_median_income_latest"].toLocaleString() + '</td><td>$' + key["usa_median_income_prev"].toLocaleString() + '</td><td>' + plus_minus(key["usa_median_income_change"]) + key["usa_median_income_change"].toFixed(1) + '%</td></tr></tbody></table>'
 
@@ -281,7 +284,8 @@ function create_cards(data) {
 
 
 
-                    } else if (btn_value == key["County"] && btn_value + " County" != key["GEOdisplaylabel"]) {
+                    } else if (btn_value == key["County"] && btn_value + " County" !== key["ledgerstyle"]) {
+
 
                         // Add all towns in the picked county into the town dropdown
 
