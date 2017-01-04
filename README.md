@@ -30,6 +30,7 @@ Make it similar to this example [here](https://github.com/CarlaAstudillo/compari
 
 Make sure the dataset is in a nice spreadsheet with unique column names. Make sure that you have the two levels (in this case, county and town) in seperate columns. There is also a 'ledger style' column that includes the clean-up, standardized names of all cities and towns. Consider adding this column to your spreadsheet so that it can display
 
+![County Name Columns](Census/head-to-head_census_cards/img/github_img/county_name_columns.png)
 
 Try to do as many calculations as possible in the spreadsheet. For example, the sample spreadsheet includes the percent change of the latest vs. previous in its own unique column. In addition, if you want to include margin of error asterisks, calculate the margin of error percentage as it's own unique column. 
 
@@ -43,12 +44,12 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 
 	var moe_text = "<small>* Margin of Error is larger than 10 percent of the total value due to small sample size. Discretion is advised when interpreting data.</small>"
 
-   ![County Name Columns](Census/head-to-head_census_cards/img/github_img/county_name_columns.png)	
+   ![Used Names function](Census/head-to-head_census_cards/img/github_img/usedNames.png)
    This part of the javascript file gets all of the unique county names in the county column and populates the county dropdown menu. Make sure it's the correct column name ("County")
 
-   
 
 **3. Where the magic happens**
+
    a.k.a the function that populates each card.
    ![Populate Cards Function](Census/head-to-head_census_cards/img/github_img/populate_cards_function.png)
 
@@ -56,36 +57,45 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 	function populate_cards(btn_value, thegrid, thedropdown) {
                 $.each(entry, function(index, key) {
    Next, we initiate the if statement which goes through every row and sees if the btn_value matches either the county or the town. 
-   ![If Statement](Census/head-to-head_census_cards/img/github_img/if_statement.png)
-   Let's break it down even further.
-    (btn_value == key["County"] && btn_value + " County" == key["ledgerstyle"])
-   This first part tries to match the btn_value to both the "County" and the "ledgerstyle" column. If the county that the reader picked matches any row with the same county name in the "County" and "ledgerstyle" columns, it will return only that row.
 
-     (btn_value == key["ledgerstyle"] && county1value == key["County"]) || (btn_value == key["ledgerstyle"] && county2value == key["County"]))
+   ![If Statement](Census/head-to-head_census_cards/img/github_img/if_statement.png)
+   
+   Let's break it down even further.
+	(btn_value == key["County"] && btn_value + " County" == key["ledgerstyle"])
+
+   This first part tries to match the btn_value to both the "County" and the "ledgerstyle" column. If the county that the reader picked matches any row with the same county name in the "County" and "ledgerstyle" columns, it will return only that row.
+	(btn_value == key["ledgerstyle"] && county1value == key["County"]) || (btn_value == key["ledgerstyle"] && county2value == key["County"]))
+
    This second part tries to match the btn_value, if a town is picked, to the "ledgerstyle" column. It also takes the county picked earlier and matches it to the "County" column. This is done so that towns with the same name, but different counties get picked correctly.
 
     var gridsquares = '<div class="element-item">'
+
    Initializes the variable `gridsquares` which we will keep adding on to until the end where we appened it to the html.
 
     gridsquares += '<p class="name">' + key["ledgerstyle"] + '</p>' + moe_text
-   We add the name of the county or town and then the margin of error text that we defined earlier. You can change the html and customize as you wish, just remember to do it after '<div class="element-item">'
+
+   We add the name of the county or town and then the margin of error text that we defined earlier. You can change the html and customize as you wish, just remember to do it after `<div class="element-item">`
 
     gridsquares += '<img src="img/median_income.svg"><p class="crit">Household Median Income</p><table><thead><tr><th></th><th>2011-2015</th><th>2005-2009</th><th>Change</th></tr></thead><tbody><tr><td></td><td class="bolded">$' + key["median_income_latest"].toLocaleString() + moe_asterisk(key["median_income_moe_latest_per"]) + '</td><td class="bolded">$' + key["median_income_prev"].toLocaleString() + moe_asterisk(key["median_income_moe_prev_per"]) + '</td><td class="bolded">' + plus_minus(key["median_income_change"]) + key["median_income_change"].toFixed(1) + '%' + moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"]) + '</td></tr><tr><td class="separate separate2">NJ</td><td class="separate2">$' + key["nj_median_income_latest"].toLocaleString() + '</td><td class="separate2">$' + key["nj_median_income_prev"].toLocaleString() + '</td><td class="separate2">' + plus_minus(key["nj_median_income_change"]) + key["nj_median_income_change"].toFixed(1) + '%</td></tr><tr><td class="separate">US</td><td>$' + key["usa_median_income_latest"].toLocaleString() + '</td><td>$' + key["usa_median_income_prev"].toLocaleString() + '</td><td>' + plus_minus(key["usa_median_income_change"]) + key["usa_median_income_change"].toFixed(1) + '%</td></tr></tbody></table>'
+   
    This part adds the html necessary for the first section of the card. It looks like this. 
-   [IMG HERE]
+   ![First Section What it should look like](Census/head-to-head_census_cards/img/github_img/first_section_example.png)
+
    Change corresponding column names to the ones in your csv. Don't forget the `.toLocaleString()` after to add commas, if it's an integer. If, for some reason, your numbers are a string, add the function `addCommas()` to add commas to a string. For example:
     addCommas(key["homevalue_latest"])
 
    This function calculates the margin of error. You can input up to two numbers.
-    moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"])
+	moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"])
 
    The function is defined earlier in the script. As you can see, it takes the latest and previous margin of error percentage numbers and if they are higher than 10, it adds an asterisk. You can customized the function to whatever number you want.
+
    ![MOE Asterisk function](Census/head-to-head_census_cards/img/github_img/moe_asterisk.png)
 
    This function adds a plus or minus sign in front of percent change.
-    plus_minus(key["nj_median_age_change"])
+	plus_minus(key["nj_median_age_change"])
 
    The function is defined earlier in the script. It takes the percent change, and if it's higher than 0, it adds a plus sign.
+
    ![Plus Minus function](Census/head-to-head_census_cards/img/github_img/plus_minus_fct.png)
 
    You can also write your very own function, and add it to the tool.
