@@ -32,7 +32,9 @@ Make sure the dataset is in a nice spreadsheet with unique column names. Make su
 
 ![County Name Columns](Census/head-to-head_census_cards/img/github_img/county_name_columns.png)
 
-Try to do as many calculations as possible in the spreadsheet. For example, the sample spreadsheet includes the percent change of the latest vs. previous in its own unique column. In addition, if you want to include margin of error asterisks, calculate the margin of error percentage as it's own unique column. 
+Try to do as many calculations as possible in the spreadsheet. For example, the sample spreadsheet includes the percent change of the latest vs. previous in its own unique column. In addition, if you want to include margin of error asterisks, calculate the margin of error percentage as it's own unique column.
+
+![Rest of Columns](Census/head-to-head_census_cards/img/github_img/example_columns.png)
 
 **Note:** The actual numbers themselves can be either strings or integers. However, if you're planning on putting a column through any kind of function (adding an moe asterisk or a plus/minus sign), make sure these numbers are integers. 
 
@@ -101,7 +103,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
    ![MOE Asterisk function](Census/head-to-head_census_cards/img/github_img/moe_asterisk.png)
 
    This function adds a plus or minus sign in front of percent change.
-   
+
 	plus_minus(key["nj_median_age_change"])
 
    The function is defined earlier in the script. It takes the percent change, and if it's higher than 0, it adds a plus sign.
@@ -128,6 +130,6 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 
 ##Possible Errors
 
-Some data mixture of strings and integers
-Check for names that are the same for County
+Check if any columns have a mixture of strings and integers. If there's a dash instead of a number in anywhere in the column, it will automatically turn into a string. That means `toLocaleString()` and `toFixed(1)` will error out and not work because it's not an integer. You either have to add commas by passing a AddCommas() function or changing the dash into a number.
 
+Also, check for names that have the same name of a county. For example, Camden in Camden County. Always name it Camden City, even though it may be a bit awkward. 
