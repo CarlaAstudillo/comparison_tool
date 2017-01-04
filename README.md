@@ -82,7 +82,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
    ![First Section What it should look like](Census/head-to-head_census_cards/img/github_img/first_section_example.png)
 
    Change corresponding column names to the ones in your csv. Don't forget the `.toLocaleString()` after to add commas, if it's an integer. If, for some reason, your numbers are a string, add the function `addCommas()` to add commas to a string. For example:
-    addCommas(key["homevalue_latest"])
+	addCommas(key["homevalue_latest"])
 
    This function calculates the margin of error. You can input up to two numbers.
 	moe_asterisk(key["median_income_moe_latest_per"], key["median_income_moe_prev_per"])
