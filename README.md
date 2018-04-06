@@ -1,4 +1,4 @@
-#NJAM Compare Tool
+# NJAM Compare Tool
 
 When working with huge data dumps, one of our biggest challenges has always been in displaying all of the data in a way that’s both visually appealing and easy-to-understand while packing in as much data as possible. This can be especially challenging in mobile devices. 
 
@@ -8,9 +8,9 @@ Using javascript, we built the tool that were using a dropdown menu, the readers
 
 We have plans to repurpose this head-to-head comparison tool to compare all kinds of datasets: schools (which will have three tiers: county, districts and schools), crime, etc. We are actively working in automating as much of it as possible so our data team can quickly turn around the comparison tool so that readers have access to the data as soon as possible.
 
-##Set up 
+## Set up 
 
-###Chrome Users: Start a simple local server
+### Chrome Users: Start a simple local server
 
 **Note: In order to test the comparison tool on your computer using Chrome, you must do it on local a server. If you open up the local file on Chrome, it won't work on your local computer. **
 
@@ -18,7 +18,7 @@ You can create your own python-based server by going to your Terminal, changing 
 
 Then open it up by putting http://0.0.0.0:8000/ on your browser. It will automatically open up the index.html file.  
 
-###Two-Level Comparison
+### Two-Level Comparison
 
 This version includes two levels of comparison: county-level and town-level.
 
@@ -128,7 +128,7 @@ Try to do as many calculations as possible in the spreadsheet. For example, the 
 
 
 
-##Possible Errors
+## Possible Errors
 
 Check if any columns have a mixture of strings and integers. If there's a dash instead of a number in anywhere in the column, it will automatically turn into a string. That means `toLocaleString()` and `toFixed(1)` will error out and not work because it's not an integer. You either have to add commas by passing a AddCommas() function or changing the dash into a number.
 
